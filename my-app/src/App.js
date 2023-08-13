@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
+import Sidebar from './components/Sidebar';
+
 function App() {
   return (
     <div className="App">
-      <FunctionalGreetingWithProps greeting='nice to meet you' name='Tamiru' age='47'/>
+<Sidebar/>
         
     </div>
+    
   );
 }
 
