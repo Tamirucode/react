@@ -1,17 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
+import css from "./App.module.css";
+{/*import NavBarSimple from './components/NavBarSimple';*/}
 import Sidebar from './components/Sidebar';
-import NavBarSimple from './components/NavBarSimple';
 import NavBarForm from './components/NavBarForm';
 import Content from "./components/Content";
 function App() {
   return (
-    <div className="App">
-       <Content/>
-      <NavBarForm/>
+    <div className={css.App}>
+       <NavBarForm/>
      {/*<NavBarSimple/>*/}
-    {/*<Sidebar/>*/ }
-        
+    <Sidebar/>
+    <Content/>  
     </div>
 
   );
